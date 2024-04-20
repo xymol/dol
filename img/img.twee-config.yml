@@ -1,0 +1,155 @@
+aliases:
+  decoration:
+    img: &img
+      border: 1px
+      borderStyle: dashed dashed none
+    unused: &unused
+      border: 0px
+sugarcube-2:
+  macros:
+    english_star:
+      description: |-
+        Prints current star icon for english
+
+        ![empty](./ui/empty_star.png)
+        ![bronze](./ui/bronze_star.png)
+        ![silver](./ui/silver_star.png)
+        ![gold](./ui/gold_star.png)
+      tags: ["img", "unused"]
+    g_english_star:
+      description: |-
+        Prints star icon at 1 greater than current english
+
+        ![empty](./ui/empty_star.png)
+        ![bronze](./ui/bronze_star.png)
+        ![silver](./ui/silver_star.png)
+        ![gold](./ui/gold_star.png)
+      tags: ["img"]
+    g_history_star:
+      description: |-
+        Prints star icon at 1 greater than current history
+
+        ![empty](./ui/empty_star.png)
+        ![bronze](./ui/bronze_star.png)
+        ![silver](./ui/silver_star.png)
+        ![gold](./ui/gold_star.png)
+      tags: ["img"]
+    g_maths_star:
+      description: |-
+        Prints star icon at 1 greater than current maths
+
+        ![empty](./ui/empty_star.png)
+        ![bronze](./ui/bronze_star.png)
+        ![silver](./ui/silver_star.png)
+        ![gold](./ui/gold_star.png)
+      tags: ["img"]
+    g_science_star:
+      description: |-
+        Prints star icon at 1 greater than current science
+
+        ![empty](./ui/empty_star.png)
+        ![bronze](./ui/bronze_star.png)
+        ![silver](./ui/silver_star.png)
+        ![gold](./ui/gold_star.png)
+      tags: ["img"]
+    history_star:
+      description: |-
+        Prints current star icon for history
+
+        ![empty](./ui/empty_star.png)
+        ![bronze](./ui/bronze_star.png)
+        ![silver](./ui/silver_star.png)
+        ![gold](./ui/gold_star.png)
+      tags: ["img", "unused"]
+    img:
+      name: img
+    img_tf_angel_doggy_active:
+      name: img_tf_angel_doggy_active
+    img_tf_angel_doggy_idle:
+      name: img_tf_angel_doggy_idle
+    img_tf_angel_miss_active:
+      name: img_tf_angel_miss_active
+    img_tf_angel_miss_idle:
+      name: img_tf_angel_miss_idle
+    img_tf_bird_doggy_active:
+      name: img_tf_bird_doggy_active
+    img_tf_bird_doggy_idle:
+      name: img_tf_bird_doggy_idle
+    img_tf_bird_miss_active:
+      name: img_tf_bird_miss_active
+    img_tf_bird_miss_idle:
+      name: img_tf_bird_miss_idle
+    img_tf_cat_doggy_active:
+      name: img_tf_cat_doggy_active
+    img_tf_cat_doggy_idle:
+      name: img_tf_cat_doggy_idle
+    img_tf_cat_miss_active:
+      name: img_tf_cat_miss_active
+    img_tf_cat_miss_idle:
+      name: img_tf_cat_miss_idle
+    img_tf_cow_doggy_active:
+      name: img_tf_cow_doggy_active
+    img_tf_cow_doggy_idle:
+      name: img_tf_cow_doggy_idle
+    img_tf_cow_miss_active:
+      name: img_tf_cow_miss_active
+    img_tf_cow_miss_idle:
+      name: img_tf_cow_miss_idle
+    img_tf_demon_doggy_active:
+      name: img_tf_demon_doggy_active
+    img_tf_demon_doggy_idle:
+      name: img_tf_demon_doggy_idle
+    img_tf_demon_miss_active:
+      name: img_tf_demon_miss_active
+    img_tf_demon_miss_idle:
+      name: img_tf_demon_miss_idle
+    img_tf_doggy_active:
+      name: img_tf_doggy_active
+    img_tf_doggy_idle:
+      name: img_tf_doggy_idle
+    img_tf_fallenangel_doggy_active:
+      name: img_tf_fallenangel_doggy_active
+    img_tf_fallenangel_doggy_idle:
+      name: img_tf_fallenangel_doggy_idle
+    img_tf_fallenangel_miss_active:
+      name: img_tf_fallenangel_miss_active
+    img_tf_fallenangel_miss_idle:
+      name: img_tf_fallenangel_miss_idle
+    img_tf_fox_doggy_active:
+      name: img_tf_fox_doggy_active
+    img_tf_fox_doggy_idle:
+      name: img_tf_fox_doggy_idle
+    img_tf_fox_miss_active:
+      name: img_tf_fox_miss_active
+    img_tf_fox_miss_idle:
+      name: img_tf_fox_miss_idle
+    img_tf_miss_active:
+      name: img_tf_miss_active
+    img_tf_miss_idle:
+      name: img_tf_miss_idle
+    img_tf_wolf_doggy_active:
+      name: img_tf_wolf_doggy_active
+    img_tf_wolf_doggy_idle:
+      name: img_tf_wolf_doggy_idle
+    img_tf_wolf_miss_active:
+      name: img_tf_wolf_miss_active
+    img_tf_wolf_miss_idle:
+      name: img_tf_wolf_miss_idle
+    maths_star:
+      description: |-
+        Prints current star icon for maths
+
+        ![empty](./ui/empty_star.png)
+        ![bronze](./ui/bronze_star.png)
+        ![silver](./ui/silver_star.png)
+        ![gold](./ui/gold_star.png)
+      tags: ["img", "unused"]
+    science_star:
+      description: |-
+        Prints current star icon for science
+
+        ![empty](./ui/empty_star.png)
+        ![bronze](./ui/bronze_star.png)
+        ![silver](./ui/silver_star.png)
+        ![gold](./ui/gold_star.png)
+      tags: ["img", "unused"]
